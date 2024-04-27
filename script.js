@@ -15,6 +15,7 @@ function guessANumber(event) {
     let totalAttempts = parseInt((highNumber - lowNumber) / 10);
     let guessNumber = parseInt(Math.random() * parseInt(highNumber - lowNumber) + lowNumber
     );
+    console.log(guessNumber);
     let attempt = 0;
     let guess = false;
     // run until guess the number or made all the attempts possible
